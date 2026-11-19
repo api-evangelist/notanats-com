@@ -1,4 +1,4 @@
-# notanats-com
+# notanATS
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-notanats-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://notanats.com/
+notanATS is a screening framework that enables hiring managers and their agents to define screening criteria once and automatically evaluate applicants against those definitions. The platform provides a customizable interview workflow, fairness monitoring with EEOC compliance, and tools for agents to interact with candidates through guided chat scenarios. It aims to simplify and reimagine the screening part of hiring, reducing manual effort and improving candidate matching.
+
+**Areas:** Screening · Hiring · Hiring Managers · Agents · AI Screening
+
+## notanATS on APIs.io
+
+Everything profiled for notanATS is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/notanats-com/](https://apis.io/providers/notanats-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [notanATS Agent API — candidates API](https://apis.io/apis/notanats-com/notanats-com-agent-api-candidates-api/) — The Agent API — candidates API from notanATS — 3 operation(s) for agent api — candidates.
+- [notanATS Agent API — directory API](https://apis.io/apis/notanats-com/notanats-com-agent-api-directory-api/) — The Agent API — directory API from notanATS — 2 operation(s) for agent api — directory.
+- [notanATS Agent API — positions API](https://apis.io/apis/notanats-com/notanats-com-agent-api-positions-api/) — The Agent API — positions API from notanATS — 5 operation(s) for agent api — positions.
+- [notanATS Agent API — proposals API](https://apis.io/apis/notanats-com/notanats-com-agent-api-proposals-api/) — The Agent API — proposals API from notanATS — 2 operation(s) for agent api — proposals.
+- [notanATS Credential management — manager session API](https://apis.io/apis/notanats-com/notanats-com-credential-management-manager-session-api/) — The Credential management — manager session API from notanATS — 4 operation(s) for credential management — manager session.
+- [notanATS Legacy /api/v1 — data reads API](https://apis.io/apis/notanats-com/notanats-com-legacy-api-v1-data-reads-api/) — The Legacy /api/v1 — data reads API from notanATS — 3 operation(s) for legacy /api/v1 — data reads.
+- [notanATS OAuth — admin review API](https://apis.io/apis/notanats-com/notanats-com-oauth-admin-review-api/) — The OAuth — admin review API from notanATS — 4 operation(s) for oauth — admin review.
+- [notanATS OAuth — discovery API](https://apis.io/apis/notanats-com/notanats-com-oauth-discovery-api/) — The OAuth — discovery API from notanATS — 4 operation(s) for oauth — discovery.
+- [notanATS OAuth — flow API](https://apis.io/apis/notanats-com/notanats-com-oauth-flow-api/) — The OAuth — flow API from notanATS — 4 operation(s) for oauth — flow.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [notanATS Agentic Access](https://apis.io/agentic-access/notanats-com/notanats-com-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Notanats Com Context](https://apis.io/jsonld/notanats-com/notanats-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [notanATS API Rules](https://apis.io/rules/notanats-com/notanats-com-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [notanATS Authentication](https://apis.io/security/notanats-com/notanats-com-authentication/)
+- [notanATS Domain Security](https://apis.io/security/notanats-com/notanats-com-domain-security/)
+- [notanATS Trust Center](https://apis.io/security/notanats-com/notanats-com-trust-center/)
+- [notanATS Vulnerability Disclosure](https://apis.io/security/notanats-com/notanats-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [notanATS Plans Pricing](https://apis.io/plans/notanats-com/notanats-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://notanats.com/)
+- [Documentation](https://notanats.com/docs/composio)
+- [API reference](https://notanats.com/llms.txt)
+- [Pricing](https://notanats.com/pricing)
+- [Blog](https://notanats.com/blog)
+- [Security](https://notanats.com/security)
+- [Compliance](https://notanats.com/security)
+- [Terms of service](https://notanats.com/terms)
+- [Privacy policy](https://notanats.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 50.9** — developing · rubric 0.28.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 53.6 |
+
+**Agent readiness 55.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/notanats-com/](https://apis.io/providers/notanats-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for notanATS: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/notanats-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
